@@ -6,4 +6,4 @@ compile:
 make
 
 run:
-client -n <number of data requests per person> -b <size of bounded buffer> -w <number of request channels to be handled by event handler thread>
+client -n [number of data requests per person] -b [size of bounded buffer] -w [number of request channels to be handled by event handler thread]
